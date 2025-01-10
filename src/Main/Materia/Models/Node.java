@@ -1,12 +1,14 @@
-package Main.Materia.Models;
+package main.Materia.Models;
 
 public class Node {
-    private int value;
+    private  int value;
     private Node left;
-    private Node right;
-
+    private  Node right;
+   
     public Node(int value) {
         this.value = value;
+        this.left = null;
+        this.right = null;
     }
 
     public int getValue() {
@@ -32,4 +34,5 @@ public class Node {
     public void setRight(Node right) {
         this.right = right;
     }
+
 }
