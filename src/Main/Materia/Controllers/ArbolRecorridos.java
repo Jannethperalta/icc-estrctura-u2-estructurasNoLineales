@@ -1,9 +1,9 @@
-package main.Materia.Controllers;
+package Main.Materia.Controllers;
 
 import java.util.Stack;
 import java.util.ArrayList;
 import java.util.List;
-import main.Materia.Models.Node;
+import Main.Materia.Models.Node;
 
 public class ArbolRecorridos {
 

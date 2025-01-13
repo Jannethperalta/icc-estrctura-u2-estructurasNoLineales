@@ -1,8 +1,10 @@
-import main.Ejercicio_3_listLevels.ListLevels;
-import main.Materia.Controllers.ArbolBinario;
-import main.Materia.Controllers.ArbolRecorridos;
+import Main.Ejercicio_3_listLevels.ListLevels;
+import Main.Materia.Controllers.ArbolBinario;
+import Main.Materia.Controllers.ArbolRecorridos;
 
 import java.util.List;
+
+import Main.Materia.Controllers.ArbolAVL;
 
 public class App {
     private static ArbolBinario arbolBinario;
@@ -65,4 +67,18 @@ public class App {
             System.out.println("Nivel " + i + ": " + lista.get(i));
         }
     }
+    private static void ArbolAVL() {
+        int[] values = {40, 20, 60, 10, 30, 50, 70, 5, 15, 55};
+        ArbolAVL arbolAVL = new ArbolAVL();
+    
+       
+        for (int value : values) {
+            arbolAVL.insert(value);
+        }
+
+        arbolAVL.printTree();
+    
+        
+    }
+      
 }

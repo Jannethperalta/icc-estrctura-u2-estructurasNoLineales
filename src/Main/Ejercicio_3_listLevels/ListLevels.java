@@ -1,11 +1,11 @@
-package main.Ejercicio_3_listLevels;
+package Main.Ejercicio_3_listLevels;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import main.Materia.Models.Node;
+import Main.Materia.Models.Node;
 
 public class ListLevels {
     public List<List<Integer>> ListLevels(Node root) {
