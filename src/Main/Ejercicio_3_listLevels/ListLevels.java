@@ -46,4 +46,14 @@ public class ListLevels {
 
         return result;
     }
+    public void imprimirListasPorNivel(List<LinkedList<Node>> listas) {
+        int nivel = 0;
+        for (LinkedList<Node> lista : listas) {
+            System.out.print("Nivel " + nivel++ + ": ");
+            for (Node nodo : lista) {
+                System.out.print(nodo.getValue() + " -> ");
+            }
+            System.out.println("null");
+        }
+    }
 }

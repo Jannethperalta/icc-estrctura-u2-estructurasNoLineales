@@ -1,21 +1,12 @@
 package Main.Materia.Models;
 
 public class Node {
-    private  int value;
-    private Node left;
-    private  Node right;
+    int value;
+    Node left;
+    Node right;
     private int height;
 
-   
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public Node(int value) {
+    public Node(int value){
         this.value = value;
         this.left = null;
         this.right = null;
@@ -45,4 +36,14 @@ public class Node {
         this.right = right;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    
+    
 }
